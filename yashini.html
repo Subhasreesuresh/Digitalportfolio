@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="yashini.css">
+</head>
+<body>
+     <nav>
+        <div class="logo">yashini</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>    
+     <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+     </div> 
+     <div class="home">
+        <div class="content">
+            <h1>WELCOME TO WEBSITE</h1>
+            <h3> Neela paithiyam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore dolorum nobis id aliquam quisquam. Nihil, voluptas explicabo beatae, exercitationem quae quo sit consectetur vero ipsa neque deserunt eligendi earum alias.</h3>
+        </div>
+     </div>
+
+     <div class="box">
+        <div class="boxs">
+            <img src="band.jpg" width="200px" height="200px">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quam rem! Consequatur distinctio quidem error labore tenetur cumque, expedi</h1>
+        </div>
+        <div class="boxs">
+            <img src="band.jpg" width="200px" height="200px">
+            
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quam rem! Consequatur distinctio quidem error labore tenetur cumque, expedi</h1>
+        </div>
+        <div class="boxs">
+            <img src="band.jpg" width="200px" height="200px">
+            
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quam rem! Consequatur distinctio quidem error labore tenetur cumque, expedi</h1>
+        </div>
+     </div>
+     <script>
+        const menu = document.querySelector('.menu')
+        const menuList = document.querySelector('nav ul')
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('shomenu')
+        })
+     </script>
+</body>
+</html>
